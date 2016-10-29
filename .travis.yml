@@ -1,0 +1,10 @@
+language: go
+install: go get -v github.com/spf13/hugo
+script:
+      - hugo --buildDrafts --theme  hugo_theme_robust
+      - sudo python -m pip install s3cmd
+      - s3cmd sync --delete-removed -P -M -r public/ s3://marache.net
+notifications:
+    email:
+        on_failure: always
+
