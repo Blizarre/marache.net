@@ -16,5 +16,8 @@ can expect when working on 8 pixels at the same time.
 As a test I made a SSE version of the algorithm, which doesn't seem to work on computers without AVX2, even if it should support it.
 I'll try to debug this once I'll have access to a computer with older hardware.
 
+{{< figure src="/img/avx-screen.jpg" title="Screenshot with AVX activated" >}}
+
+
 The source code available on [github](https://github.com/Blizarre/fractVect), see function 
 [generateImageAVX](https://github.com/Blizarre/fractVect/blob/master/main.cpp#L199")
