@@ -15,12 +15,12 @@ described in the paper from [S. Avidan and A. Shamir](http://www.faculty.idc.ac.
 
 The picture on the right has all the features of the originalimage, with little distortion, but the aspect ratio is completely different.
 
-The paper use dynamic programming to look for the lowest-energy path between any top-row pixel to any bottom-row pixel (line in white):
+The paper use dynamic programming to look for the lowest-energy path between any top-row pixel to any bottom-row pixel (line in black):
 
-ENERGY MAP GOES HERE
+{{< figure src="/img/seamcarving-energy.jpg" title="Sample Energy map" >}}
 
 You need to provide the energy map that will give the cost needed to cross a pixel. I implemented two versions, one with Gabor filter, and the second one with a gradient filter (Sobel on the X axis). A third solution with entropy has been made as a prototype, but since no function exists in numpy/openCV to compute the entropy over a sliding window, I do it "by hand", which is far too slow!
 
-Animation of the seam carving in action on the image:
+Animation of the seam carving in action on an image:
 
 {{< youtube hv9PUBc2-MI >}}
