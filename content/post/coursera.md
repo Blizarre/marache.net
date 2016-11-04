@@ -1,3 +1,10 @@
++++
+title = "Coursera and Scala"
+draft = true
+date = "2015-05-20T20:36:12+01:00"
+
++++
+
 I just discovered that coursera had several courses about Scala, made by the creator of the language Martin Odersky.
 
 * Functional programming: https://www.coursera.org/course/progfun
