@@ -11,6 +11,6 @@ Using your location (GPS), your direction (compass), and the location of the lan
 
 Unfortunately, for now, I am stuck with a problem: Even when correcting for the magnetic inclination, the compass measurement is off by a small angle.... It seems to be the internal compass. More tests must be done to see if the offset is constant. And the internal compass is extremely sensitive to electromagnetic interferences : any car passing by will interfere with the measurement.
 
-Code on (github)[https://github.com/Blizarre/SummitsAround]
+Code on [github](https://github.com/Blizarre/SummitsAround)
 
 
