@@ -1,7 +1,7 @@
 +++
 title = "Memory access: sequential vs. random"
 draft = true
-date = "2016-11-05T08:59:48Z"
+date = "2015-01-27T08:59:48Z"
 
 +++
 
