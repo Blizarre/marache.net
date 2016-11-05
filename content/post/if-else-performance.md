@@ -15,6 +15,6 @@ Look at the [code](https://github.com/Blizarre/microProjects/blob/master/switchV
 
 ## References
 
-* [http://en.wikipedia.org/wiki/Switch_statement#Compilation]
-* [https://github.com/741MHz/741MHz.github.io/tree/master/switch] (very interesting, but the hosting website is down...)
+* http://en.wikipedia.org/wiki/Switch_statement#Compilation
+* https://github.com/741MHz/741MHz.github.io/tree/master/switch (very interesting, but the hosting website is down...)
 
