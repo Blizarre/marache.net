@@ -1,7 +1,7 @@
 +++
 title = "Augmented reality on Android"
 draft = true
-date = "2016-11-04T08:31:46Z"
+date = "2015-04-16T08:31:46Z"
 
 +++
 
