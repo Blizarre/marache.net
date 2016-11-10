@@ -40,7 +40,7 @@ That's it, now you have your pixel value ! well, not really, you have the shape.
 
 I didn't talked about the smoothing part: since we compute a number of iterations, we have an integer as a value. This gives a not so nice step effect. Several tricks can make them go away by computing intermediate values. The one I've used is in the documentation.
 
-Anyway, one last thought : it would be interesting to see what DirectCompute can offer ! I'm almost generating small images in real-time on my i5 4670K, but 1080p animations are out of reach !
+Anyway, one last thought : it would be interesting to see what DirectCompute can offer. I'm generating small images in almost real-time on my i5 4670K, but 1080p animations are still out of reach.
 
 ## Where is the code?
 On [gitHub](https://github.com/Blizarre/FractalExplorer)
