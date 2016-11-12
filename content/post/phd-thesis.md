@@ -9,7 +9,7 @@ date = "2012-02-01T08:31:46Z"
 
 Cette thèse a été soutenue le 14 Février 2012, et portait principalement sur les problématiques de la correction du mouvement respiratoire en imagerie TEP (Tomographie par émission de Positon). J'y présente une technique originale d'évaluation automatisée de la détectabilité des lésions, ainsi que la création d’une base de données patients simulés.
 
-**Evaluation de la correction du mouvement respiratoire sur la détection des lésions en oncologie TEP**
+*Evaluation de la correction du mouvement respiratoire sur la détection des lésions en oncologie TEP*
 
 * [Manuscrit de Thèse](/files/phd-thesis.pdf)
 * [Présentation de Thèse](/files/phd-slides.pptx)
