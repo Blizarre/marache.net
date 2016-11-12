@@ -53,3 +53,11 @@ Code is stored on [Github](https://github.com/Blizarre/PerfsBatt)
 ## Authors
 
 Simon Marache-Francisco and Rémy B.
+
+## Documentation
+
+* LOCAL MSP430 DataSheet
+* LOCAL MSP430 User Guide
+* LOCAL TI Launchpad User Guide : Board schematics p.17
+* [Slides](http://www.ti.com/lit/ml/slap117/slap117.pdf) about MSP430 and UART for the new MSP430g2553 with HW UART capability. Figure Slide 25-26 give parameters for UART
+
