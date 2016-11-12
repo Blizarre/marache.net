@@ -42,7 +42,7 @@ As a bonus, I wanted to estimate the orientation of the star trails in the image
 
 **Result:**
 
-ORIENTATION THUMBNAIL
+{{<figure src="img/opencv-orient.jpg" title="Orientation estimation on a part of the image" >}}
 
 ## Full-sized images
 
