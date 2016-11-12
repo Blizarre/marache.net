@@ -11,8 +11,8 @@ Cette thèse a été soutenue le 14 Février 2012, et portait principalement sur
 
 **Evaluation de la correction du mouvement respiratoire sur la détection des lésions en oncologie TEP**
 
-* [Manuscrit de Thèse](files/phd-thesis.pdf)
-* [Présentation de Thèse](files/phd-slides.pptx)
+* [Manuscrit de Thèse](/files/phd-thesis.pdf)
+* [Présentation de Thèse](/files/phd-slides.pptx)
 
 ## Résumé
 
