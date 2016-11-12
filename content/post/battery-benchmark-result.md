@@ -16,10 +16,11 @@ I used only cheap batteries because of their very low cost. Would it be cost-eff
 
 I knew from various sources that rechargeable and non-rechargeable batteries have a very different-looking discharge curve, and that the "capacity" could vary greatly depending on the output. Therefore I measured the intensity of the current on my headlamp at medium power (around 200mA), which is equivalent to a resistance of 7.5 Ohm. I took the closest one I got at 5.6 Ohm:
 
-Voltage (V) Current (mA)
-1.5 268 mA
-1.3 232 mA
-1.1 196 mA
+| Voltage (V) | Current (mA) |
+|-------------|--------------|
+| 1.5         | 268 mA       |
+| 1.3         | 232 mA       |
+| 1.1         | 196 mA       |
 
 The current values are above 200mA, but this is not a problem since my headlamp is fairly low power, and I plan to get (or make) a more powerful one.
 
