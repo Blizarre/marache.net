@@ -2,6 +2,7 @@ baseurl = "http://test.marache.net/"
 title = "Simon Marache-Francisco"
 languageCode = "en-uk"
 theme = "hugo_theme_robust"
+uglyURLs = true
 
 [params]
   dateformat = "02/01/2006" # Optional
