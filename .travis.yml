@@ -1,9 +1,9 @@
-language: go
-install: go get -v github.com/spf13/hugo
+language: python
+install: curl -L https://github.com/spf13/hugo/releases/download/v0.17/hugo_0.17_Linux-64bit.tar.gz | tar -zx hugo_0.17_linux_amd64/hugo_0.17_linux_amd64
 script:
       - sudo python -m pip install s3cmd
       - s3cmd sync -r s3://marache.net-static static
-      - hugo --buildDrafts
+      - ./hugo_0.17_linux_amd64/hugo_0.17_linux_amd64 --buildDrafts
       - s3cmd sync --delete-removed -P -M -r public/ s3://test.marache.net
 notifications:
     email:
