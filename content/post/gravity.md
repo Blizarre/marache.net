@@ -6,10 +6,10 @@ date = "2016-10-29T08:31:46Z"
 +++
 
 I have always been fascinated by gravity simulations, and I have vivid memories of 
-small simulators where you would create celestial bodies and watch their motion.
+small simulators where you would create celestial bodies and watch them in motion.
 
-As I wanted to see what the fuss was about typescript, I decided to make a simple gravity
-simulator. My goal was to simulate trajectories of around a dozen bodies in real-time, in
+As I wanted to see what the fuss was about [TypeScript](https://www.typescriptlang.org/), I decided to make a simple gravity
+simulator featuring planets. My goal was to simulate trajectories of around a dozen bodies in real-time, in
 the browser.
 
 Everything is based on Newton's [second law](https://en.wikipedia.org/wiki/Newton's_laws_of_motion#Newton.27s_second_law):
@@ -35,7 +35,7 @@ a = ∑F/a
 ```
 I only have to add the acceleration to the current velocity `v` of the planet to get the velocity `v'` at time *t+1*. 
 
-The biggest problem with this approach is that it does not conserve energy: Two bodies should be attracted, 
+The biggest problem with this approach is that it does not conserve energy: two bodies should be attracted, 
 pass each other (I do not implement collisions for the moment), go further apart until the attraction bring them back again, pass each other, etc.
 
 However with this method, they just get a massive speed boost as they get closer and then, (free energy !) 
@@ -49,7 +49,7 @@ much full of people attempting the same project. This lead me to a better algori
 This solution is the one implemented in the code, and do not have this problem. You can find a great
 post about it in this [gamedev thread](http://gamedev.stackexchange.com/questions/15708/how-can-i-implement-gravity)
 
-# Demo time ! 
+# Demo time !
 
 You can find the code [here](https://github.com/Blizarre/gravity/), and a demonstration [here](/projects/gravity/index.html).
 
