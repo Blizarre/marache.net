@@ -5,11 +5,11 @@ draft = true
 
 +++
 
-[AWS Lambda](https://aws.amazon.com/lambda/) lets you run code (python2, nodejs, java, C#) in response to events. It is optimized for short-running code. I decided to use it to watch a webpage, looking for changes. When a specific value is under a threshold, I use [AWS SNS](https://aws.amazon.com/sns/), the notification system, to send myself a SMS once the desired value is reached.
+[AWS Lambda](https://aws.amazon.com/lambda/) lets you run code (python2, nodejs, java, C#) in response to events. It is optimized for short-running code. I decided to use it to watch a webpage, and notify me when a specific change happen. When a value gets under a threshold, I use [AWS SNS](https://aws.amazon.com/sns/), the notification system, to send myself a SMS alert.
 
-Lambda provides a small text editor (you can upload larger codebases if necessary) that you can use to edit and test your code. The lack of error-handling is intentional, as I will get notification of any failure, including the logs through the AWS Cloudwatch service. The same service (AWS Cloudwatch Events), was used as the event source to run the Lambdas.
+Lambda provides a small text editor (you can upload larger codebases if necessary) that you can use to edit and test your code. The lack of error-handling in my code is intentional, as I will get notification of any failure, including the stacktrace through the AWS Cloudwatch service. The same service (AWS Cloudwatch Events), was used as the event source to run the Lambdas.
 
-I have been very impressed by the power of Lambdas: I manager to finish this project in half an hour, and it is running very well ever since. 
+I have been very impressed by the power of Lambdas: I managed to finish this project in half an hour, and it is running very well ever since.
 
 {{< highlight python >}}
 import urllib2
