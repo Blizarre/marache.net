@@ -46,5 +46,5 @@ def lambda_handler(event, context):
         if current < limit:
             return send_message("Value for {} is {:.2f}".format(label, current))
     return "Nothing interesting today"
-{{< /highlight python >}}
+{{< /highlight >}}
 
