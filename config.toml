@@ -3,6 +3,7 @@ title = "Simon Marache-Francisco"
 languageCode = "en-uk"
 theme = "hugo_theme_robust"
 uglyURLs = true
+pygmentsstyle = "manni"
 
 [params]
   dateformat = "02/01/2006" # Optional
