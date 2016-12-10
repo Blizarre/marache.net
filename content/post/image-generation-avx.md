@@ -2,6 +2,7 @@
 title = "Image generation acceleration using X86_64 SIMD extensions"
 draft = true
 date = "2015-10-25T20:36:12+01:00"
+thumbnail = "img/head_cod..jpg"
 
 +++
 
