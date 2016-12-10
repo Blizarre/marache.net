@@ -46,8 +46,16 @@ As a bonus, I wanted to estimate the orientation of the star trails in the image
 
 ## Full-sized images
 
-ORIGINAL IMAGE
+Original image:
 
-IMPROVED IMAGE
+{{< thumb suffix="opencv_full_raw.jpg" >}}
 
-ORIENTATION IMAGE
+Cleaned image:
+
+{{< thumb suffix="opencv_full_cleaned.jpg" >}}
+
+Orientation image:
+
+
+{{< thumb suffix="opencv_full_orient.jpg" >}}
+
