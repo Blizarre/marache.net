@@ -9,7 +9,7 @@ I needed a robust counter for my work, but none of thoses I found were good enou
 
 And because it is always useful, there's a programmer-friendly converter too. 
 
- - [Timer](projects/jscripts/chrono.html)
- - [Hex/Dec/Octal Converter](projects/jscripts/converter.html)
+ - [Timer](/projects/jscripts/chrono.html)
+ - [Hex/Dec/Octal Converter](/projects/jscripts/converter.html)
 
 The repository is on [Github](https://github.com/Blizarre/jscripts).
