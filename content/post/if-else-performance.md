@@ -12,7 +12,7 @@ To check this, I made a new entry in my [microprojects](https://github.com/Bliza
 
 After running the benchmark on a i5 4570, the switch is 4 times faster than the ifElse. After a bit of googling, I found out that the switch can be implemented by the compiler as a binary search or as a branch table, which are obviously much faster than the ifElse !
 
-Look at the [code](https://github.com/Blizarre/microProjects/blob/master/switchVsIfElse/test.cpp), and see for yourself !
+Look at the [code](https://github.com/Blizarre/microProjects/blob/master/switchVsIfElse/main.cpp), and see for yourself !
 
 ## References
 
