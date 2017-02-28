@@ -8,7 +8,7 @@ thumbnail = "img/head_code.jpg"
 
 A few days ago I took a picture of the night sky using my camera, right in the middle of nowhere. I expected a nice clear picture but no matter where I looked, there was always some background light, and the sensor noise was quite strong:
 
-{{<figure src="/img/opencv-raw.jpg" title="Thmbnail of the original image: notice the haze" >}}
+{{<figure src="/img/opencv-raw.jpg" title="Thumbnail of the original image: notice the haze" >}}
 
 I wanted to play with the python version of OpenCV for a long time, so this was a great opportunity to try to improve the result! And I'm in love with the python bindings: making Numpy, OpenCV and Scipy working together is really easy !
 
@@ -23,7 +23,7 @@ I wanted to play with the python version of OpenCV for a long time, so this was 
 
 ### Result:
 
-{{<figure src="/img/opencv-cleaned.jpg" title="Thmbnail of the cleaned image" >}}
+{{<figure src="/img/opencv-cleaned.jpg" title="Thumbnail of the cleaned image" >}}
 
 Depending on the calibration on your screen and your environment, the effect may not be very noticeable. You can switch between the full size images to get a better view, see the gallery at the end of the post.
 
