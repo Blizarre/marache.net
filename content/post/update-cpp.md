@@ -1,0 +1,18 @@
++++
+title = "Back to c++"
+draft = true
+date = "2018-05-20T08:37:05+01:00"
+thumbnail = "img/head_cloud.jpg"
+
++++
+
+I missed C++ since I started my job 2 years ago, and I think that now is the
+right time to have a look at what has changed. I bought [Effective Modern
+C++](http://shop.oreilly.com/product/0636920033707.do), which is really well
+written and to the point. I am now going to update my old [3d rasterizer
+project](https://github.com/blizarre/aff3d) with what I gained from the book. I
+already made a few changes to support SDL2, fixed a few cmake issues, added
+travis support to make sure it would build properly, and added support for the
+STL file format.
+
+Now I am ready to start cleaning up and add new features!
