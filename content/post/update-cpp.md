@@ -15,4 +15,4 @@ already made a few changes to support SDL2, fixed a few cmake issues, added
 travis support to make sure it would build properly, and added support for the
 STL file format.
 
-Now I am ready to start cleaning up and add new features!
+I plan to try to improve the overall architecture and fix some bugs to the rendering code. 
