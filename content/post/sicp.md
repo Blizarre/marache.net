@@ -1,7 +1,7 @@
 +++
 date = "2017-01-08T08:54:15Z"
 title = "First look at the SICP"
-draft = true
+draft = false
 thumbnail = "img/head_learn.jpg"
 +++
 

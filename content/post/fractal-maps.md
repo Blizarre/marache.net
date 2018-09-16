@@ -1,6 +1,6 @@
 +++
 title = "Fractal Maps"
-draft = true
+draft = false
 date = "2014-08-31T22:41:51Z"
 thumbnail = "img/head_fractals.png"
 +++

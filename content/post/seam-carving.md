@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Seam carving"
 date = "2015-06-07T10:34:08+01:00"
 thumbnail = "img/head_code.jpg"

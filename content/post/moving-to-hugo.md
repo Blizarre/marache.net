@@ -1,6 +1,6 @@
 +++
 title = "Moving to a static Website"
-draft = true
+draft = false
 date = "2016-10-21T08:37:05+01:00"
 thumbnail = "img/head_cloud.jpg"
 

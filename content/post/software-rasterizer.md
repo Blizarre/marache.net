@@ -1,7 +1,7 @@
 +++
 date = "2015-01-06T22:44:38Z"
 title = "Software rasterizer"
-draft = true
+draft = false
 thumbnail = "img/head_code.jpg"
 +++
 

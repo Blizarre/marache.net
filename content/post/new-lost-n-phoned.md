@@ -1,7 +1,7 @@
 +++
 date = "2014-11-27T22:47:32Z"
 title = "Lost'n Phoned update"
-draft = true
+draft = false
 thumbnail = "img/head_code.jpg"
 +++
 

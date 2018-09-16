@@ -1,6 +1,6 @@
 +++
 title = "Coursera and Scala"
-draft = true
+draft = false
 date = "2015-05-20T20:36:12+01:00"
 thumbnail = "img/head_learn.jpg"
 +++

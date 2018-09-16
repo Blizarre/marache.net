@@ -1,6 +1,6 @@
 +++
 title = "Linux tips and tricks"
-draft = true
+draft = false
 date = "2013-01-13T08:31:46Z"
 thumbnail = "img/head_code.jpg"
 +++

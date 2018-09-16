@@ -1,6 +1,6 @@
 +++
 title = "Fractals in the browser using WebGl"
-draft = true
+draft = false
 date = "2014-10-27T22:51:27Z"
 thumbnail = "img/head_fractals.png"
 +++

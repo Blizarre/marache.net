@@ -1,6 +1,6 @@
 +++
 title = "Gravity simulation"
-draft = true
+draft = false
 date = "2016-10-29T08:31:46Z"
 thumbnail = "img/gravity.png"
 

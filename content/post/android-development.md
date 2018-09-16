@@ -1,6 +1,6 @@
 +++
 title = "Android development"
-draft = true
+draft = false
 date = "2013-08-29T08:31:46Z"
 thumbnail = "img/head_code.jpg"
 +++

@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Small JS Files"
 date = "2014-08-31T22:05:13Z"
 thumbnail = "img/head_code.jpg"

@@ -1,7 +1,7 @@
 +++
 date = "2016-12-04T18:28:39Z"
 title = "Web sentry with SMS Notification using AWS Lambda"
-draft = true
+draft = false
 thumbnail = "img/head_cloud.jpg"
 
 +++

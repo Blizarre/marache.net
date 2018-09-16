@@ -1,7 +1,7 @@
 +++
 date = "2015-04-07T08:54:15Z"
 title = "A new micro project: comparing performances between 'switch' and if-else-if-else in C++"
-draft = true
+draft = false
 thumbnail = "img/head_code.jpg"
 
 +++

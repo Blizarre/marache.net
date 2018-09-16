@@ -1,6 +1,6 @@
 +++
 title = "Memory access: sequential vs. random"
-draft = true
+draft = false
 date = "2015-01-27T08:59:48Z"
 thumbnail = "img/head_code.jpg"
 +++

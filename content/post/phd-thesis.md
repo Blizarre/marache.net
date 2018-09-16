@@ -1,6 +1,6 @@
 +++
 title = "PhD Thesis (French)"
-draft = true
+draft = false
 date = "2012-02-01T08:31:46Z"
 
 +++

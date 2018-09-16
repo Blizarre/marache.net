@@ -1,4 +1,4 @@
-baseurl = "https://test.marache.net/"
+baseurl = "https://www.marache.net/"
 title = "Simon Marache-Francisco"
 languageCode = "en-uk"
 theme = "hugo_theme_robust"

@@ -1,6 +1,6 @@
 +++
 title = "Battery Benchmark"
-draft = true
+draft = false
 date = "2012-05-25T08:31:46Z"
 thumbnail = "img/head_electronic.jpg"
 +++

@@ -1,6 +1,6 @@
 +++
 title = "Mozaic Creator"
-draft = true
+draft = false
 date = "2014-03-22T22:06:49Z"
 thumbnail = "img/head_code.jpg"
 +++

@@ -1,6 +1,6 @@
 +++
 title = "Augmented reality on Android"
-draft = true
+draft = false
 date = "2015-04-16T08:31:46Z"
 thumbnail = "img/head_code.jpg"
 +++

@@ -1,6 +1,6 @@
 +++
 title = "Image processing using OpenCV"
-draft = true
+draft = false
 date = "2015-05-27T08:22:50Z"
 thumbnail = "img/head_code.jpg"
 +++

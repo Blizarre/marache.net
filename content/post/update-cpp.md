@@ -1,6 +1,6 @@
 +++
 title = "Back to c++"
-draft = true
+draft = false
 date = "2018-05-20T08:37:05+01:00"
 thumbnail = "img/head_code.jpg"
 

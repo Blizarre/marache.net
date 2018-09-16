@@ -1,6 +1,6 @@
 +++
 date = "2014-01-13T22:19:54Z"
-draft = true
+draft = false
 title = "Fractal Generator"
 thumbnail = "img/head_fractals.png"
 
