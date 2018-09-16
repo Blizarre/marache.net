@@ -1,10 +1,10 @@
 language: python
-install: curl -L https://github.com/spf13/hugo/releases/download/v0.17/hugo_0.17_Linux-64bit.tar.gz | tar -zx hugo_0.17_linux_amd64/hugo_0.17_linux_amd64
+install: curl -L https://github.com/spf13/hugo/releases/download/v0.48/hugo_0.48_Linux-64bit.tar.gz | tar -zx hugo
 script:
       - sudo python -m pip install s3cmd Pygments
       - mkdir static
       - s3cmd sync --no-preserve -r s3://marache.net-static static
-      - ./hugo_0.17_linux_amd64/hugo_0.17_linux_amd64 --buildDrafts
+      - ./hugo --buildDrafts
       - s3cmd sync --delete-removed -P -M -r public/ s3://test.marache.net
 notifications:
     email:
