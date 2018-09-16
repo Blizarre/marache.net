@@ -2,7 +2,7 @@
 title = "Back to c++"
 draft = true
 date = "2018-05-20T08:37:05+01:00"
-thumbnail = "img/head_cloud.jpg"
+thumbnail = "img/head_code.jpg"
 
 +++
 
