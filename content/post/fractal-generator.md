@@ -11,7 +11,7 @@ I made this small project in C# (winforms). The interface may be (and most certa
 
 Some images made with this tool are available
 
-IMAGE_GALLERY
+{{< thumb path="/img/fractals" file="fondEcran1.png" >}}
 
 ## How it works
 
