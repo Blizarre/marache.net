@@ -2,7 +2,7 @@
 title = "Fractals in the browser using WebGl"
 draft = true
 date = "2014-10-27T22:51:27Z"
-
+thumbnail = "img/head_fractals.png"
 +++
 
 Following my work on almost real-time fractals generation, I wanted to test OpenGL shaders :
@@ -17,6 +17,6 @@ The results are impressive. You can render fractals in real-time on a full scree
 * Animations: The software will slowly change the values of the Julia function to animate the fractal.
 * Full-screen mode
 
-SCREENSHOT
+{{< figure src="/img/webglFractals.png" title="Screenshot" >}}
 
 The source code is available in [Github](https://github.com/Blizarre/jscripts/blob/master/fractal.js)
