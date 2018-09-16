@@ -2,17 +2,23 @@
 title = "Mozaic Creator"
 draft = true
 date = "2014-03-22T22:06:49Z"
-
+thumbnail = "img/head_code.jpg"
 +++
-
 
 This program will create a mosaic image made from thousands of thumbnails, close to a reference image  :
 
-IMAGE_SAMPLES
+{{< thumb file="mozaic1_orig.jpg" >}}
+{{< thumb file="mozaic1_tr.jpg" >}}
+
+{{< thumb file="mozaic2_orig.jpg" >}}
+{{< thumb file="mozaic2_tr.jpg" >}}
+
+{{< thumb file="mozaic3_orig.jpg" >}}
+{{< thumb file="mozaic3_tr.jpg" >}}
 
 **WARNING:** This is a small hack I made in a few afternoon, the code quality is pretty bad. 😔
 
-However, it works very well !
+You will need to provide a directory with the thumbnails used to generate the final image. How to generate it is left as an exercice to the reader.
 
 ## Features
 
@@ -26,8 +32,8 @@ However, it works very well !
 
 Warning : should be run on x64 computer, it can fill up RAM very quickly, and support bmp images only for now.
 
-Currently the source code is for visual studio 2013. Very easy to port on linux, the only windows-only parts are the filesystem module and the use of "#pragma once"
+Currently the source code is for visual studio 2013. Very easy to port on linux, the only windows-only parts are the filesystem module.
 
 Source code, as usual stored on [GitHub](https://github.com/Blizarre/mozaicCreator)
 
-IMAGE_CLI
+{{< figure src="/img/mozaic_cli.png" title="Mozaic Creator" >}}
