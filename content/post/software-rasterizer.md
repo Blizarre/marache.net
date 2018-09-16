@@ -25,8 +25,8 @@ keys:
 * 'q' : use the mouse to move the teapot
 ~~~
 
-TEAPOT_SCREENSHOT
+{{< figure src="/img/rasterizer1.png" title="Solid rendering of the teapot" >}}
 
-TEQPOT_SCREENSHOT_2
+{{< figure src="/img/rasterizer2.png" title="Wireframe rendering of the teapot" >}}
 
 The code is on [Github](https://github.com/Blizarre/aff3D).
