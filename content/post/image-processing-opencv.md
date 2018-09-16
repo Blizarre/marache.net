@@ -3,14 +3,13 @@ title = "Image processing using OpenCV"
 draft = true
 date = "2015-05-27T08:22:50Z"
 thumbnail = "img/head_code.jpg"
-
 +++
 
 A few days ago I took a picture of the night sky using my camera, right in the middle of nowhere. I expected a nice clear picture but no matter where I looked, there was always some background light, and the sensor noise was quite strong:
 
 {{<figure src="/img/opencv-raw.jpg" title="Thumbnail of the original image: notice the haze" >}}
 
-I wanted to play with the python version of OpenCV for a long time, so this was a great opportunity to try to improve the result! And I'm in love with the python bindings: making Numpy, OpenCV and Scipy working together is really easy !
+I wanted to play with the python version of OpenCV for a long time, so this was a great opportunity to try to improve the result! And I'm in love with the python bindings: making Numpy, OpenCV and Scipy work together is really easy !
 
 ## Image improvement
 
@@ -21,7 +20,7 @@ I wanted to play with the python version of OpenCV for a long time, so this was 
 5. Apply a small gaussian filter to smoothen the edges left by the thresholding.
 6. Adjust the gamma correction to brighten the image
 
-### Result:
+### Result
 
 {{<figure src="/img/opencv-cleaned.jpg" title="Thumbnail of the cleaned image" >}}
 
