@@ -2,14 +2,15 @@
 title = "Battery Benchmark"
 draft = true
 date = "2012-05-25T08:31:46Z"
-
+thumbnail = "img/head_electronic.jpg"
 +++
 
 This page presents a benchmarking device for non-rechargeable battery. The idea is to use the TI Launchpad board as a voltmeter, and then to plot the voltage of a battery discharging over time. For this, I have to configure the MSP430 to make an acquisition every 60 seconds, and to store the result on the board. To make things simple, all the measurements are sent through the serial port every 15 seconds.
 
-IMAGE_PHOTO_DEVICE
+{{< figure src="/img/battTest.jpg" title="Photo of the Device" >}}
 
 ## How it works
+
 Every minute I start an acquisition and store the result only if it is different from the previous one. Therefore you have a slight underestimation close to the resolution of the stored result.
 
 ### Pseudocode
@@ -48,7 +49,6 @@ Code is stored on [Github](https://github.com/Blizarre/PerfsBatt)
 * 31/01/2012: Thanks Remy! I''ll use the inboard serial to usb converter to upload all the data at every measurements. Not extremely efficient, but it will be very easy to receive the data, and I will not need to let the computer on at all time.
 * 29/01/2012: Thanks to the "User Guide", the datasheet as well as numerous blog posts, I can now make as many measurements as I want, store them in RAM, and configure the delay between the acquisitions. Now the question: should I store the data in RAM or on a SD card?
 * 28/01/2012: I received the TI Launchpad board today! 4.30$ for the dev board and "express" shipping by FedEx. Thanks TI! Now, I'm trying to make a single measurement
-
 
 ## Authors
 

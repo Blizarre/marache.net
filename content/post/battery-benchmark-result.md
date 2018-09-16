@@ -2,10 +2,12 @@
 title = "Battery Benchmark Results"
 draft = true
 date = "2012-05-26T08:31:46Z"
+thumbnail = "img/head_electronic.jpg"
 
 +++
 
 ## Why?
+
 Evaluate the effectiveness/cost ratio of several battery brands. I have been doing photography and caving for several years now, and I have used a lot of rechargeable and non-rechargeable batteries on flash, LED lamp etc. I had a few questions:
 
 * I observed that the batteries that worked so well on my headlamp were almost useless on my flash, so I wanted to investigate why.
@@ -23,7 +25,7 @@ I knew from various sources that rechargeable and non-rechargeable batteries hav
 
 The current values are above 200mA, but this is not a problem since my headlamp is fairly low power, and I plan to get (or make) a more powerful one.
 
-**TLRD; I measured the discharge graph of batteries on a 5.6 Ohm load to match my gear.**
+**TLRD; I measured the discharge graph of batteries on a 5.6 Ohm load to roughly match the current used by my headlamps.**
 
 ## Results
 
@@ -41,30 +43,29 @@ I used the previous project to get the discharge curves. I compared 6 different 
 | VARTA High Energy  | 1.02        | Alkaline
 | Conrad             | 3.70        | Ni-Mh 2500mAh
 
-
 ### Variability
 
-IMAGE_Evaluation of the variability of the discharge for the same brand
+{{< figure src="/img/variability.png" title="Evaluation of the variability of the discharge for the same brand" >}}
 
 The first step is to ensure that the variability of measurements is not too high. If it was the case, the study would have to be made several times for every brand, which would be impractical. The measurements are made on 5 different Amazon essential batteries, from 2 different packages. The two packages were bought at the same time, so they a probably from the same batch. The results are very similar for all of them.
 
-Discharge curves
+### Discharge curves
 
-IMAGE_Results of the benchmark
+{{< figure src="/img//batteryBench.png" title="Benchmark result" >}}
 
 ### Discharge time
 
-IMAGE_Discharge time to 1.1V
+{{< figure src="/img//discharge11.png" title="Discharge time to 1.1V" >}}
 
-IMAGE_Discharge time to 1.3V
+{{< figure src="/img//discharge13.png" title="Discharge time to 1.3V" >}}
 
 As usual, you get what you pay for. The branded batteries show better performances than the discounts. However, the difference is only in the range of a 5 to 20% improvement. The Carrefour Discount as well as the IKEA batteries are very good, on par with the brand ones. However, the other ones hold a significantly lower charge.
 
-### Discharge time corrected
+### Discharge time corrected for price
 
-IMAGE_Discharge time to 1.1V, taking into account the price
+{{< figure src="/img//discharge11E.png" title="Discharge time to 1.1V, price corrected" >}}
 
-IMAGE_Discharge time to 1.3V, taking into account the price
+{{< figure src="/img//discharge13E.png" title="Discharge time to 1.3V, price corrected" >}}
 
 You get what you pay for, right? Well, not really. Every increase in performance comes at a greater cost, and the batteries are no exception. The pricing difference is so large (>500%) that the small increase in performance is annihilated when you look at your wallet.
 

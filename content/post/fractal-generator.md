@@ -7,7 +7,7 @@ title = "Fractal Generator"
 
 I made this small project in C# (winforms). The interface may be (and most certainly is) confusing, but the concepts are rather simple, as long as you know a little bit about the fractal image generation.
 
-IMAGE_MAIN_SCREENSHOT
+{{< figure src="/img/fractalsEditor.png" title="Screenshot of FractalExplorer" >}}
 
 Some images made with this tool are available
 

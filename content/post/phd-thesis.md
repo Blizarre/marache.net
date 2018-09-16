@@ -32,14 +32,10 @@ Les résultats obtenus sont prometteurs et montrent une réelle amélioration de
 
 ## Jury
 
-Président, Christophe Odet, Professeur, CREATIS, INSA-lyon
-Rapporteur, Michel Desvignes, Professeur, GIPSA-Lab, INP Grenoble
-Rapporteur, Su Ruan, Professeur, LITIS, Université ́de Rouen
-Examinateur, Frédéric Lamare, Docteur, Ingénieur de Recherche, INCIA
-Examinateur, Jean-Michel Rouet, Docteur, Ingénieur Philips Healthcare Medisy
-Co-encadrante, Carole Lartizien, chargée de Recherche CNRS, CREATIS, Lyon
-Directeur de thèse, Rémy Prost, Professeur, CREATIS, INSA-Lyon
-
-
-
-
+* Président, Christophe Odet, Professeur, CREATIS, INSA-lyon
+* Rapporteur, Michel Desvignes, Professeur, GIPSA-Lab, INP Grenoble
+* Rapporteur, Su Ruan, Professeur, LITIS, Université ́de Rouen
+* Examinateur, Frédéric Lamare, Docteur, Ingénieur de Recherche, INCIA
+* Examinateur, Jean-Michel Rouet, Docteur, Ingénieur Philips Healthcare Medisy
+* Co-encadrante, Carole Lartizien, chargée de Recherche CNRS, CREATIS, Lyon
+* Directeur de thèse, Rémy Prost, Professeur, CREATIS, INSA-Lyon
