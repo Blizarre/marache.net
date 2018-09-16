@@ -16,3 +16,9 @@ travis support to make sure it would build properly, and added support for the
 STL file format.
 
 I plan to try to improve the overall architecture and fix some bugs to the rendering code. 
+
+{{< figure src="/img/aff3dSkull.png" title="T-Rex skull" >}}
+
+This model has 167000 triangles and was created by [MakerBot](https://www.thingiverse.com/thing:308335).
+
+The code is on [GitHub](https://github.com/blizarre/aff3d).
