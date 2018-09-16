@@ -1,3 +1,3 @@
-<a href="img/{{ .Get "suffix" }}">
-    <img src="/img/thumb_{{ .Get "suffix" }}" />
+<a href="{{ default "/img" (.Get "path") }}/{{ .Get "file" }}">
+    <img src="{{ default "/img" (.Get "path") }}/thumb_{{ .Get "file" }}" />
 </a>
