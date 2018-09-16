@@ -65,4 +65,4 @@ Anyway, one last thought : it would be interesting to see what DirectCompute can
 
 ## Github project
 
-On [gitHub](https://github.com/Blizarre/FractalExplorer)
+On [GitHub](https://github.com/Blizarre/FractalExplorer)

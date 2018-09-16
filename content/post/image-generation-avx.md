@@ -20,5 +20,5 @@ I'll try to debug this once I'll have access to a computer with older hardware.
 {{< figure src="/img/avx-screen.jpg" title="Screenshot with AVX activated" >}}
 
 
-The source code available on [github](https://github.com/Blizarre/fractVect), see function 
+The source code available on [Github](https://github.com/Blizarre/fractVect), see function 
 [generateImageAVX](https://github.com/Blizarre/fractVect/blob/master/main.cpp#L199")

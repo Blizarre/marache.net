@@ -11,4 +11,4 @@ I started a new project on Android, so I took some times to make this app more r
 
 {{< figure src="/img/lostnphoned.png" title="Screenshot of the application" >}}
 
-THe application is available on the [Play store](https://play.google.com/store/apps/details?id=com.smfandroid.smsbeacon), and the source code is on [Github](https://github.com/Blizarre/SMSBeacon).
+The application is available on the [Play store](https://play.google.com/store/apps/details?id=com.smfandroid.smsbeacon), and the source code is on [Github](https://github.com/Blizarre/SMSBeacon).
