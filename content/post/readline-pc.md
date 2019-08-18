@@ -2,7 +2,7 @@
 title = "Readline and pkg-config in ubuntu"
 draft = false
 date = "2019-08-17T10:10:00Z"
-thumbnail = "img/head_cloud.jpg"
+thumbnail = "img/head_code.jpg"
 +++
 
 I have been busy trying to learn [Chicken scheme](https://www.call-cc.org/) recently. 
