@@ -2,7 +2,7 @@
 title = "Compiling Chicken Scheme scripts"
 draft = false
 date = "2019-08-18T10:10:00Z"
-thumbnail = "img/head_cloud.jpg"
+thumbnail = "img/head_code.jpg"
 +++
 
 A few things I have learned about building binaries with Chicken Scheme
@@ -120,7 +120,8 @@ Both methods will generate a file that you can parse with `chicken-profile`, whi
 
 ### statistical profiler
 
-Use `-:p` to sample every 10000us or `:-P NUM` to sample every `NUM` us.
+Use `-:p` to sample every 10000us or `:-P NUM` to sample every `NUM` us. Every `NUM`, the profiler will stop the execution and write
+down what is the procedure currently executed.
 
 ```
 $ csc test.scm 
@@ -137,7 +138,7 @@ test.scm:14: my-product      1    0.002    0.002   13.698
 
 ### Instrumentation profiling
 
-Add `-profile` during compilation to instruct the compiler to add extra code for profiling. 
+Add `-profile` during compilation to instruct the compiler to add extra code for profiling. Only the *top-level* procedures will be instrumented, which will limit the amount of details available.
 
 ```
 $ csc -profile test.scm 
