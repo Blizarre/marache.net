@@ -19,8 +19,8 @@ unsigned int len;
 {
 ```
 
-I tried to stay as close as possible to the RFC description, so the resulting program is around 15% slower than the `md5sum` implementation from coreutils, which is not that bad.
+I tried to stay as close as possible to the RFC, without considerations for speed. The resulting program is around 15% slower than the `md5sum` implementation from coreutils, which is not that bad.
 
-Even if I spent quite some time on a test harness (`testtools`) including a python script to generate the test data, it is **not** production-ready, the error-handling system is very primitive and has not been tested thoroughly. It was only a weekend project to have a bit of fun learning about this venerable algorithm.
+Even if I spent quite some time on a test harness (`testtools`), including a python script to generate the test data, it is **not** production-ready: the error-handling system is very primitive and has not been tested thoroughly. It was only a weekend project to have a bit of fun learning about this venerable algorithm.
 
 [The source is on github](https://github.com/Blizarre/microProjects/tree/master/md5)
