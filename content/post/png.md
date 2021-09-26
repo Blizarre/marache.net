@@ -1,5 +1,5 @@
 +++
-title = "Micro project: PNG Implementation, Chunk Decoding
+title = "Micro project: PNG Implementation, Chunk Decoding"
 draft = false
 date = "2021-07-11T10:50:27Z"
 thumbnail = "img/head_code.jpg"
