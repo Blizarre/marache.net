@@ -1,0 +1,56 @@
+name: Marache.net
+
+concurrency:
+  group: ${{ github.workflow }}
+
+on:
+  push:
+    branches:
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          path: ./website
+
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.110.0'
+          extended: true
+
+      - name: Check
+        run: |
+          cd ./website      
+          hugo --minify
+
+  publish:
+    needs: lint
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+        with: 
+          repository: blizarre/prod
+          token: ${{ secrets.PROD_TOKEN }}
+          submodules: true
+
+      - name: configure git
+        run: |
+          git config user.email "bot@simon.marache.net"
+          git config user.name "Botty Bot"
+
+      - name: update prod
+        run: |
+          git status
+          git submodule update --remote marache.net
+          git add marache.net
+          git commit -m "Update marache.net"
+
+      - name: push new version of prod
+        run: git push
