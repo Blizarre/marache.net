@@ -3,7 +3,6 @@ title = "Back to c++"
 draft = false
 date = "2018-05-20T08:37:05+01:00"
 thumbnail = "img/head_code.jpg"
-
 +++
 
 I missed C++ since I started my job 2 years ago, and I think that now is the
