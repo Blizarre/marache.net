@@ -10,7 +10,7 @@ on:
   pull_request:
 
 jobs:
-  lint:
+  build-and-publish:
     # These permissions are needed to interact with GitHub's OIDC Token endpoint.
     permissions:
       id-token: write
