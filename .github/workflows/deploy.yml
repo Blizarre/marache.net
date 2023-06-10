@@ -6,6 +6,7 @@ concurrency:
 on:
   push:
     branches:
+      - master
   pull_request:
 
 jobs:
@@ -34,6 +35,20 @@ jobs:
       - name: Copy files to the static directory with the AWS CLI
         run: |
           aws s3 sync s3://marache-net-static ./website/static/
+
+      - name: Install Imagemagick' convert
+        run: |
+          sudo apt-get install imagemagick
+
+      - name: Generate thumbnails
+        run: |
+          find -path "./website/static/img/*" -type f -not -name "thumb_*" | while read IMG_PATH; do
+            IMG_DIR="$(dirname "$IMG_PATH")"
+            IMG_NAME="$(basename "$IMG_PATH")"
+            # http://www.imagemagick.org/Usage/resize/#techniques
+            echo "$IMG_DIR : $IMG_NAME -> thumb_$IMG_NAME"
+            convert "$IMG_DIR/$IMG_NAME" -colorspace RGB -resize '40000@' -colorspace sRGB  -quality '80%' "$IMG_DIR/thumb_$IMG_NAME"
+          done
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
