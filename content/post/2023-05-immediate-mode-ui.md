@@ -1,6 +1,6 @@
 +++
 title = "A new project: Immediate mode UI in rust"
-draft = true
+draft = false
 date = "2023-05-22T08:37:05+01:00"
 thumbnail = "img/head_fractals.png"
 +++
@@ -11,4 +11,4 @@ Since my last project was (another) fractal generator, written in rust/OpenGL th
 
 I had never worked with [immediate mode](https://en.wikipedia.org/wiki/Immediate_mode_(computer_graphics)) before and that's pretty refreshing: The code that generate the UI is called at every frame. It's not very efficient from from a performance point of view, and probably doesn't scale well, but writing code that way is really fun.
 
-{{< thumb path="/img/fractals" file="fondEcran1.png" >}}
+{{< thumb path="/img/" file="immediate-mode.jpg" >}}
