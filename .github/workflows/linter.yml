@@ -40,32 +40,16 @@ jobs:
           hugo-version: '0.110.0'
           extended: true
 
-      - name: Check
+      - name: Build
         run: |
           cd ./website
           hugo --minify
 
-  publish:
-    needs: lint
-    runs-on: ubuntu-22.04
-    steps:
-      - uses: actions/checkout@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
         with:
-          repository: blizarre/prod
-          token: ${{ secrets.PROD_TOKEN }}
-          submodules: true
+          path: './website/'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
 
-      - name: configure git
-        run: |
-          git config user.email "bot@simon.marache.net"
-          git config user.name "Botty Bot"
-
-      - name: update prod
-        run: |
-          git status
-          git submodule update --remote marache.net
-          git add marache.net
-          git commit -m "Update marache.net"
-
-      - name: push new version of prod
-        run: git push
