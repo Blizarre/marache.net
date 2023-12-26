@@ -17,4 +17,6 @@ I decided to build a simple script (Python / Async / openai lib) to translate ev
 
 It is amazing what you can do in a couple of hours. If anyone is interested, here is the output: 
 
+It took around an hour and $20 to translate the whole book.
+
 Github repository: https://github.com/blizarre/microProjects
