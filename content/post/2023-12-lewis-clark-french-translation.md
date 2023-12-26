@@ -15,8 +15,35 @@ A couple of manual tests showed that the result was very good. I was really surp
 
 I decided to build a simple script (Python / Async / openai lib) to translate every single entries (~ 1600) and generate a file in markdown. [pandoc](https://pandoc.org) was then used to convert it into epub.
 
-It is amazing what you can do in a couple of hours. If anyone is interested, here is the output: 
+We were both really surprised y the quality of the output. The original document is not perfect, with plenty of abbreviations, obsolete words and truncated phrases. But ChatGPT4 handled them pretty well.
 
-It took around an hour and $20 to translate the whole book.
+> [Clark, May 29, 1804]
+> 
+> Tuesday 29th May Sent out hunters, got a morning obsvtn and one at 12<br/>
+> oClock, rained last night, the river rises fast The Musquetors are<br/>
+> verry bad, Load the pierogue
+
+Was translated into
+
+> ## Clark, May 29, 1804
+> Mardi 29 mai, envoyé des chasseurs, pris une observation le matin et une à 12 heures, il a plu la nuit dernière, la rivière monte rapidement. Les moustiques sont très mauvais, chargez la pirogue.
+
+
+The only caveat is that the tables were not translated well. They were not formatted very well in the original document, so the output is not very good:
+
+> F        Inch<br/>
+> Length from nose to tail                 5        2<br/>
+> Circumpherence in largest part--                41/2<br/>
+> Number of scuta on belly--221<br/>
+> Do. on Tale--53<br/>
+
+was translated into:
+> F       Pouces Longueur du nez à la queue                   5        2 Circonférence à la partie la plus large--                4 1/2 Nombre de scutelles sur le ventre--221 Idem sur la queue--53
+
+We decided that for our purpose this wasn't an issue, but that would be a potential improvement.
+
+If anyone is interested, here is the output: 
+
+It took around 2 hours and $20 in api calls to translate the whole book, which is really raisonnable.
 
 Github repository: https://github.com/blizarre/microProjects
