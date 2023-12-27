@@ -2,7 +2,7 @@
 title = "Automated French translation of the Lewis and Clark expedition journals using ChatGPT4 Turbo"
 draft = false
 date = "2023-12-26T08:37:05+01:00"
-thumbnail = "img/head_code.png"
+thumbnail = "img/head_code.jpg"
 +++
 
 # Automated French translation of the Lewis and Clark expedition journals using ChatGPT4 Turbo
