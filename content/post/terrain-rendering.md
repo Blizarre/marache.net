@@ -2,7 +2,7 @@
 title = "3d terrain rendering for embedded hardware"
 draft = false
 date = "2020-08-09T10:50:27Z"
-thumbnail = "img/head_code.jpg"
+thumbnail = "img/terrain-rendering.jpg"
 +++
 
 {{< figure src="/img/terrain-rendering.jpg" title="Screenshot in 1080p" >}}
