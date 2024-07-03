@@ -2,7 +2,7 @@
 title = "Experiments with Retrieval-Augmented Generation (RAG or AI Search)"
 draft = false
 date = "2024-07-03T08:37:05+01:00"
-thumbnail = "img/head_code.jpg"
+thumbnail = "img/head_llm.jpg"
 +++
 
 Over the weekend, I implemented a Retrieval-Augmented Generation (RAG) pipeline as an experiment. RAG is an AI-driven document search technique. While it is powerful and interesting, the fundamentals turned out to be a lot more basic than I expected.

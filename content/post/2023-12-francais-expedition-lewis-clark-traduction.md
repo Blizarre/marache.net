@@ -2,7 +2,7 @@
 title = "Traduction automatique du journal de Lewis et Clark à l'aide de ChatGPT4 Turbo"
 draft = false
 date = "2023-12-26T08:37:05+01:00"
-thumbnail = "img/head_code.jpg"
+thumbnail = "img/head_llm.jpg"
 +++
 
 ## \[Français\] Presentation
