@@ -9,7 +9,7 @@ Recently, I've been working on a few small but fun projects. As usual it's mostl
 
 ## USB Volume Knob with CircuitPython
 
-I created a volume/media key USB controller for my desktop using MicroPython and a ProMicro microcontroller. This small project was my first experience with CircuitPython, and I absolutely loved it. I used a bootleg ProMicro (RP2040) to build a "proper" physical volume knob and media buttons, which I enclosed in an old tin box I found at a thrift shop.
+I created a volume/media key USB controller for my desktop using MicroPython and a ProMicro microcontroller. This small project was my first experience with [CircuitPython](https://circuitpython.org), and I absolutely loved it. I used a bootleg [ProMicro](https://www.sparkfun.com/products/18288) based on the [RP2040](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html) microcontroller to build a "proper" physical volume knob and media buttons, which I enclosed in an old tin box I found at a thrift shop.
 
 ### Features
 
@@ -17,7 +17,7 @@ I created a volume/media key USB controller for my desktop using MicroPython and
 - **Play/Pause:** A short press on the knob will play or pause the current track.
 - **Next/Previous Track:** Pressing the previous and next buttons will skip to the previous or next track.
 
-The simplicity and functionality of CircuitPython made this project really fun. Having a REPL on your micro-controller fells like having superpowers (I remember spending hours trying to flash [PICs](https://en.wikipedia.org/wiki/PIC_microcontrollers) at uni). You can check out the code and detailed instructions on my [GitHub page](https://github.com/Blizarre/usb_volume_knob_circuitpython).
+The simplicity and functionality of CircuitPython made this project really fun. Using a "normal" filesystem and a Python REPL on your micro-controller fells like having superpowers (I remember spending hours trying to flash [PICs](https://en.wikipedia.org/wiki/PIC_microcontrollers) at uni). You can check out the code and detailed instructions on my [GitHub page](https://github.com/Blizarre/usb_volume_knob_circuitpython).
 
 {{< figure src="/img/usb_knob.jpg" title="Photo of the Device" >}}
 
