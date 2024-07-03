@@ -5,27 +5,29 @@ date = "2024-07-03T08:37:05+01:00"
 thumbnail = "img/head_code.jpg"
 +++
 
-Over the weekend, I ran some experiments with Retrieval-Augmented Generation (RAG), an AI-driven document search technique. While it is powerful and interesting, it turned out to be a lot more basic than I expected.
+Over the weekend, I implemented a Retrieval-Augmented Generation (RAG) pipeline as an experiment. RAG is an AI-driven document search technique. While it is powerful and interesting, the fundamentals turned out to be a lot more basic than I expected.
+
+The source code of the pipeline is available in the [microProjects repo](https://github.com/Blizarre/microProjects/tree/master/weekend_rag).
 
 ## What does RAG or AI Search look like?
 
 From the point of view of the user, RAG is a sophisticated document search engine. You prompt it with a question, and it retrieves the relevant information from a document database. For instance, you might ask, "What is the name of the project manager on the Airbus project?" or "Who is Simon's manager?" The system then provides an answer, much like a chatbot.
 
-## How does it work?
+### How does it work?
 
 In its simplest form, RAG uses a document database (imagine an [Elasticsearch](https://www.elastic.co/) instance with one row per document). A script queries this database using keywords from your question, and the relevant documents are pasted (literally) into a Large Language Model (LLM) prompt with the question. The LLM then generates an answer for that prompt.
 
-## Where does the AI come in?
+### Where does the AI come in?
 
 The AI aspect can be enhanced by using "embeddings," which represent text as vectors of numbers. With a good model, texts with similar meanings/concepts will have similar embeddings. For example, "The doctor asked for the nurse" and "He gave me some pills to sleep tonight" would have closer embeddings than "She is a Software engineer at Airbus." However, in my tests, embeddings struggled with nonsensical or ambiguous keywords (such as lesser-known acronyms, codewords, brand names). When I queried about `Flask` in a corpus of web frameworks, it returned irrelevant results, presumably because in the embeddings Flask is associated with liquor, far west and whiskey!
 
-## Commercial RAG solutions
+### Commercial RAG solutions
 
 Interestingly, RAG/AI search solutions from [Azure](https://aws.amazon.com/kendra/), [AWS](https://aws.amazon.com/kendra/), and others follow the same pattern. They provide document databases, connectors to keep the database updated with the data sources, data pipelines for cleaning data, and the infrastructure to run the LLM.
 
 ## My weekend RAG pipeline
 
-I built a simple RAG pipeline using Haystack, with [Ollama](https://ollama.com/) running the LLM ([ollama3:8b](https://ollama.com/library/llama3)). ES handled keyword indexing and search, while Chroma DB stored and searched embeddings.
+I built a simple RAG pipeline using the [Haystack](https://haystack.deepset.ai/) library, with [Ollama](https://ollama.com/) running the LLM ([ollama3:8b](https://ollama.com/library/llama3)). ElasticSearch handled keyword indexing and search, while [Chroma DB](https://www.trychroma.com/) stored and searched embeddings.
 
 I used a hybrid approach combining both fuzzy textual search in Elasticsearch and embeddings search. I had to use both to get around the limitations discussed earlier.
 
@@ -33,7 +35,7 @@ I asked the embeddings database for the 5 closest matches directly.
 
 For the textual search, I generated the search keywords using llama3, and then retrieved the top 3 document matching these keywords in Elasticsearch. It gave me a total of 8 documents to use in the LLM. I found that too many documents would overwhelm llama3, which is why I limited myself to that number.
 
-The code for the pipeline is available on [GitHub](https://www.github.com). You can either ingest the data of a book or query the data.
+The code for the pipeline is available on [GitHub](https://github.com/Blizarre/microProjects/tree/master/weekend_rag). You can either ingest the data of a book or query the data.
 
 ### Experiments
 
