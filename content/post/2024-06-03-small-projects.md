@@ -2,7 +2,7 @@
 title = "What I Have Been Up To"
 draft = false
 date = "2024-05-01T08:37:05+01:00"
-thumbnail = "img/head_code.jpg"
+thumbnail = "img/head_hw_soft.jpg"
 +++
 
 Recently, I've been working on a few small but fun projects. As usual it's mostly about software, but there is a bit of (light) embedded too this time! These involve using MicroPython for a hardware project, creating a user-friendly interface for DALL-E, and setting up a self-hosted music streaming solution.
