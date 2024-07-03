@@ -11,7 +11,7 @@ The source code of the pipeline is available in the [microProjects repo](https:/
 
 ## What does RAG or AI Search look like?
 
-From the point of view of the user, RAG is a sophisticated document search engine. You prompt it with a question, and it retrieves the relevant information from a document database. For instance, you might ask, "What is the name of the project manager on the Airbus project?" or "Who is Simon's manager?" The system then provides an answer, much like a chatbot.
+From the point of view of the user, RAG is a sophisticated document search engine. You prompt it with a question, and it retrieves the relevant information from a document database and use that to give an answer. For instance, you might ask, "What is the name of the project manager on the Airbus project?" (the data could be in a confluence page) or "Who is Simon's manager?" (the data could be in an excel spreadsheet). The system then provides an answer, much like a chatbot.
 
 ### How does it work?
 
