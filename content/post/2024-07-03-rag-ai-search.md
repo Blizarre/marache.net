@@ -27,7 +27,7 @@ Interestingly, RAG/AI search solutions from [Azure](https://aws.amazon.com/kendr
 
 ## My weekend RAG pipeline
 
-I built a simple RAG pipeline using the [Haystack](https://haystack.deepset.ai/) library, with [Ollama](https://ollama.com/) running the LLM ([ollama3:8b](https://ollama.com/library/llama3)). ElasticSearch handled keyword indexing and search, while [Chroma DB](https://www.trychroma.com/) stored and searched embeddings.
+I built a simple RAG pipeline using the [Haystack](https://haystack.deepset.ai/) library, with [Ollama](https://ollama.com/) running the [llama3:8b](https://ollama.com/library/llama3) LLM. ElasticSearch handled keyword indexing and search, while [Chroma DB](https://www.trychroma.com/) stored and searched embeddings.
 
 I used a hybrid approach combining both fuzzy textual search in Elasticsearch and embeddings search. I had to use both to get around the limitations discussed earlier.
 
