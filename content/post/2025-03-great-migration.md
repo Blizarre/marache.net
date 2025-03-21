@@ -33,5 +33,7 @@ So far:
 More will be added as I go. I still have an oracle free account for my public web services and a couple of S3 buckets that I need to move, but I have the time. I will also try to
 move out of GitHub at some point.
 
+Moving out of the apple ecosystem for my phone and Google Photos/Youtube will be a lot more difficult, as I could not find any replacements that were good enough for now.
+
 In the end I am pretty happy with the transition. It required quite a bit of work but I managed to reduce my dependency to big US cloud companies by a little, and
 even reduced the number of services and accounts I need to wory about.
