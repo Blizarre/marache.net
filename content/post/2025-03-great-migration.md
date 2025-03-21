@@ -5,8 +5,7 @@ date = "2025-03-20T08:37:05+01:00"
 thumbnail = "img/head_cloud.jpg"
 +++
 
-Given the recent events, I have been slowly migrating my internet presence to the EU and off the Big US Tech companies. It has not been very hard,
-but it is a slow process given all the tools that have been experimenting with over the years.
+Given the recent events, I have been slowly migrating my internet presence to the EU and off the Big US Tech companies. As a secondary objective, I also wanted to get rid of subscriptions and have more control over my data. It has not been very hard, but it is a slow process given all the tools that have been experimenting with over the years.
 
 So far:
 - **email**: [*Fastmail*](https://www.fastmail.com/): I have been using them for years, without knowing that they had a strong EU presence. One less thing to worry about.
@@ -24,11 +23,11 @@ So far:
   It is less convenient, but I can still access all my ebooks without having to physically connect my ebook to the computer.
 - **Book reader**: from Kindle to [*KOReader*](https://koreader.rocks/): that is a little gem. The source code is very easy to follow (thank you [lua](https://www.lua.org/)!) so I have been able to
   fix bugs myself, and even get them merged in days thanks to the very nice community there. I can now download my RSS feeds directly from the reader without a third-party service.
-- **Bookmarks-to-reader**: From a [custom project](https://github.com/Blizarre/pouch2inflame) with Pocket to [*Wallbag*](https://wallabag.org/). There is a Wallbag plugin in KoReader so I can just hit "Sync" and get all
+- **Bookmarks-to-reader**: from a [custom project](https://github.com/Blizarre/pouch2inflame) with Pocket to [*Wallbag*](https://wallabag.org/). There is a Wallbag plugin in KoReader so I can just hit "Sync" and get all
   my bookmarks in the reader in no time as epubs. 
+- **Music**: from Spotify to a library managed by [*Beets*](https://beets.io/) with [*Navidrome*](https://www.navidrome.org/) as the server and [*Amperfy*](https://github.com/BLeeEZ/amperfy) as the iOS media player.
 
-More will be added as I go. I still have an oracle free account for my public web services and a couple of S3 buckets that I need to move, but I have the time. I will also try to
-move out of GitHub at some point.
+More will be added as I go. I still have an oracle free account for my public web services and a couple of S3 buckets that I need to move, but I have the time. I will also try to move out of GitHub at some point. The most important was my ebook collection, as it was locked into the Amazon Ecosystem.
 
 Moving out of the apple ecosystem for my phone and Google Photos/Youtube will be a lot more difficult, as I could not find any replacements that were good enough for now.
 
