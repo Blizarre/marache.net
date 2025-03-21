@@ -8,9 +8,6 @@ thumbnail = "img/head_cloud.jpg"
 Given the recent events, I have been slowly migrating my internet presence to the EU and off the Big US Tech companies. It has not been very hard,
 but it is a slow process given all the tools that have been experimenting with over the years.
 
-I am not trying to go all the way, but at least I will try to use the 
-
-
 So far:
 - email: [`Fastmail`](https://www.fastmail.com/): I have been using them for years, without knowing that they had a strong EU presence. One less thing to worry about.
 - Travel blog: from wordpress/blogger to [`Fastmail`](https://www.fastmail.com/): Fastmail offer a small online drive that can be
