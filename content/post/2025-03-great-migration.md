@@ -1,6 +1,6 @@
 +++
 title = "The small migration"
-draft = true
+draft = false
 date = "2025-03-20T08:37:05+01:00"
 thumbnail = "img/head_cloud.jpg"
 +++
@@ -26,7 +26,7 @@ So far:
 - Books management: from the kindle app to [Calibre](https://calibre-ebook.com/), [Calibre-web](https://github.com/janeczku/calibre-web) and [DeDRM](https://github.com/apprenticeharper/DeDRM_tools).
   It is less convenient, but I can still access all my ebooks without having to physically connect my ebook to the computer.
 - Book reader: from Kindle to [KOReader](https://koreader.rocks/): that is a little gem. The source code is very easy to follow (thank you [lua](https://www.lua.org/)!) so I have been able to
-  fix bugs myself, and even get them merged in days thanks to the very nice community there. I can now download news articles directly from the reader without a third-party service.
+  fix bugs myself, and even get them merged in days thanks to the very nice community there. I can now download my RSS feeds directly from the reader without a third-party service.
 - Bookmarks-to-reader: From a [custom project](https://github.com/Blizarre/pouch2inflame) with Pocket to [Wallbag](https://wallabag.org/). There is a Wallbag plugin in KoReader so I can just hit "Sync" and get all
   my bookmarks in the reader in no time as epubs. 
 
