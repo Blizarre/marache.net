@@ -5,7 +5,7 @@ date = "2025-03-20T08:37:05+01:00"
 thumbnail = "img/head_cloud.jpg"
 +++
 
-Given the recent events, I have been slowly migrating my internet presence to the EU. It has not been very hard,
+Given the recent events, I have been slowly migrating my internet presence to the EU and off the Big US Tech companies. It has not been very hard,
 but it is a slow process given all the tools that have been experimenting with over the years.
 
 I am not trying to go all the way, but at least I will try to use the 
