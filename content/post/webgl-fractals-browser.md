@@ -11,7 +11,7 @@ Following my work on almost real-time fractals generation, I wanted to test Open
 
 ## Features:
 
-* Julia fractal : You can change the values of c0 in the Julia function ( x'=x? + c0 )
+* Julia fractal : You can change the values of c0 in the Julia function ( x'=x² + c0 )
 * Animations: The software will slowly change the values of the Julia function to animate the fractal.
 * Full-screen mode
 

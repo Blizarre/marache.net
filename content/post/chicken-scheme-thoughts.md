@@ -50,7 +50,7 @@ $ ./gen -:?
 ## Modules
 
 The modules are declared inside a `module`. As stated in the [module documentation](http://wiki.call-cc.org/man/5/Modules),
-`import scheme` is necessary inside the module. That's easily ovelooked.
+`import scheme` is necessary inside the module. That's easily overlooked.
 
 The parameters are: `(module MODULE_NAME (EXPORTED_NAME_1 EXPORTED_NAME_2 ...) BODY)`:
 

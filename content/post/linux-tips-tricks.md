@@ -5,7 +5,7 @@ date = "2013-01-13T08:31:46Z"
 thumbnail = "img/head_code.jpg"
 +++
 
-This post list a few tips that I discovered when I started working back in 2013. I have improved my knowledge a great deal over the last years but the informations there can still be useful.
+This post list a few tips that I discovered when I started working back in 2013. I have improved my knowledge a great deal over the last years but the information there can still be useful.
 
 ## Bash (any)
 
@@ -50,7 +50,7 @@ For the first item of the last command (`^` and `$` match regexes):
 ~~~bash
 ls /tmp /tmp2
 cd !^
-pwd -> /tmp2
+pwd -> /tmp
 ~~~
 
 Print every command before execution. Very useful when debugging bash scripts:

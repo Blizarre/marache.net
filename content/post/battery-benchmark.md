@@ -46,7 +46,7 @@ Code is stored on [Github](https://github.com/Blizarre/PerfsBatt)
 * 25/02/2012: Ok, I have most of the data, I'm starting to make a web page to share the results.
 * 05/02/2012: It works fine now, I start the real measurments.
 * 01/02/2012: several tests done using UART. MSB of the data sent from the board is always corrupted. I think the problem comes from the clock. Found slides from TI that should help.
-* 31/01/2012: Thanks Remy! I''ll use the inboard serial to usb converter to upload all the data at every measurements. Not extremely efficient, but it will be very easy to receive the data, and I will not need to let the computer on at all time.
+* 31/01/2012: Thanks Remy! I'll use the inboard serial to usb converter to upload all the data at every measurements. Not extremely efficient, but it will be very easy to receive the data, and I will not need to let the computer on at all time.
 * 29/01/2012: Thanks to the "User Guide", the datasheet as well as numerous blog posts, I can now make as many measurements as I want, store them in RAM, and configure the delay between the acquisitions. Now the question: should I store the data in RAM or on a SD card?
 * 28/01/2012: I received the TI Launchpad board today! 4.30$ for the dev board and "express" shipping by FedEx. Thanks TI! Now, I'm trying to make a single measurement
 

@@ -17,7 +17,7 @@ I created a volume/media key USB controller for my desktop using MicroPython and
 - **Play/Pause:** A short press on the knob will play or pause the current track.
 - **Next/Previous Track:** Pressing the previous and next buttons will skip to the previous or next track.
 
-The simplicity and functionality of CircuitPython made this project really fun. Using a "normal" filesystem and a Python REPL on your micro-controller fells like having superpowers (I remember spending hours trying to flash [PICs](https://en.wikipedia.org/wiki/PIC_microcontrollers) at uni). You can check out the code and detailed instructions on my [GitHub page](https://github.com/Blizarre/usb_volume_knob_circuitpython).
+The simplicity and functionality of CircuitPython made this project really fun. Using a "normal" filesystem and a Python REPL on your micro-controller feels like having superpowers (I remember spending hours trying to flash [PICs](https://en.wikipedia.org/wiki/PIC_microcontrollers) at uni). You can check out the code and detailed instructions on my [GitHub page](https://github.com/Blizarre/usb_volume_knob_circuitpython).
 
 {{< figure src="/img/usb_knob.jpg" title="Photo of the Device" >}}
 
@@ -29,7 +29,7 @@ I created a simple web-based UI for DALL-E called MicroDallE. This project is as
 ### Features
 
 - **Image Generation:** Enter a prompt, and the server creates an image using DALL-E 3.
-- **Optional Local Save:** You can optionally save each generated image with its prompt for your records. I wanted to add that feature because each generation cost money, and I didn't to waste it by mistake.
+- **Optional Local Save:** You can optionally save each generated image with its prompt for your records. I wanted to add that feature because each generation cost money, and I didn't want to waste it by mistake.
 
 The project was developed using Python and Flask. For more details, you can visit the [GitHub repository](https://github.com/Blizarre/microdalle).
 

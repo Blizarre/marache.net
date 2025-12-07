@@ -37,7 +37,7 @@ Some examples:
 
 ## How it works
 
-It generates [fractals](https://en.wikipedia.org/wiki/Fractal). I am going to talk bout the [Julia set](https://en.wikipedia.org/wiki/Julia_set), but other fractals have been implemented. For Julia, C.real and C.Imag represents the parameter. This software will render the fractals using the CPU, with a bit of threading to make things run more smoothly (Parallel.For is awesome).
+It generates [fractals](https://en.wikipedia.org/wiki/Fractal). I am going to talk about the [Julia set](https://en.wikipedia.org/wiki/Julia_set), but other fractals have been implemented. For Julia, C.real and C.Imag represents the parameter. This software will render the fractals using the CPU, with a bit of threading to make things run more smoothly (Parallel.For is awesome).
 
 In the image, each pixel represents a complex number:
 
@@ -59,7 +59,7 @@ z_n+1 = z_n * z_n + c
 
 That's it, now you have your pixel value ! well, not really, you have the shape. All the Eye-candy is up to you. You can choose the amount of red, green and blue, as well as the overall Contrast and Brightness of the image. The CheckBox "Non Linear" will try to give you something different. It is no longer math !
 
-I didn't talked about the smoothing part: since we compute a number of iterations, we have an integer as a value. This gives a not so nice step effect. Several tricks can make them go away by computing intermediate values. The one I've used is in the documentation.
+I didn't talk about the smoothing part: since we compute a number of iterations, we have an integer as a value. This gives a not so nice step effect. Several tricks can make them go away by computing intermediate values. The one I've used is in the documentation.
 
 Anyway, one last thought : it would be interesting to see what DirectCompute can offer. I'm generating small images in almost real-time on my i5 4670K, but 1080p animations are still out of reach.
 

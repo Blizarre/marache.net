@@ -7,7 +7,7 @@ thumbnail = "img/head_code.jpg"
 
 There were several bugs still present in this app, mostly under the new versions of Android.
 
-I started a new project on Android, so I took some times to make this app more resilient to errors, and to do some extensive testing for KitKat.
+I started a new project on Android, so I took some time to make this app more resilient to errors, and to do some extensive testing for KitKat.
 
 {{< figure src="/img/lostnphoned.png" title="Screenshot of the application" >}}
 

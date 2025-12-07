@@ -15,7 +15,7 @@ So far:
 - **DNS registrar**: from AWS to [*Hetzner*](https://www.hetzner.com/domainregistration/). Again, the process took a few days but was pretty smooth.
 - **DNS hosting**: from AWS Route53 to [*Hetzner DNS console*](https://www.hetzner.com/dns-console/). It was pretty easy to set up, and there is an API that [Caddy](https://github.com/caddy-dns/hetzner) can use to request Acme certs.
 - **Main Backups**: from IDrive to [*Hetzner Storage Boxes*](https://www.hetzner.com/storage/storage-box/) with [BorgBackup](https://www.borgbackup.org/). The constant price increases and lack of features meant that it was a no-brainer.
-- **Website backups**: from AWS S3 [*Hetzner Storage Boxes*](https://www.hetzner.com/storage/storage-box/). The storage boxes offer sub-accounts that have access to only part of the filesystem tree, and can be reached via SSH.
+- **Website backups**: from AWS S3 to [*Hetzner Storage Boxes*](https://www.hetzner.com/storage/storage-box/). The storage boxes offer sub-accounts that have access to only part of the filesystem tree, and can be reached via SSH.
   Transitioning from `aws s3 cp` to `scp` was trivial. Access rights and user management is also much simpler.
 - **Text/Video chats**: from Whatsapp to [*Signal*](https://signal.org/) and [*Telegram*](https://telegram.org/). My parents and family were keen to move away from Meta, so we decided to switch to Signal. Some of my European friends also wanted to be out but chose Telegram. I still need WhatsApp to communicate with club groups but I reduced my usage by 90%.
 - **Books store**: from the Amazon Store to whoever sells books online with Adobe DRM. I got burned by the new encryption scheme that Amazon has rolled out and prevented me from migrating some books (fortunately very few).
@@ -32,4 +32,4 @@ More will be added as I go. I still have an oracle free account for my public we
 Moving out of the apple ecosystem for my phone and Google Photos/Youtube will be a lot more difficult, as I could not find any replacements that were good enough for now.
 
 In the end I am pretty happy with the transition. It required quite a bit of work but I managed to reduce my dependency to big US cloud companies by a little, and
-even reduced the number of services and accounts I need to wory about.
+even reduced the number of services and accounts I need to worry about.

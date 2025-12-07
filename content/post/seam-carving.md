@@ -13,7 +13,7 @@ described in the paper from [S. Avidan and A. Shamir](http://www.faculty.idc.ac.
 
 {{< figure src="/img/seamcarving-compare.jpg" title="Horizontal Shrink using naive resize on the left and Seam Carving on the right" >}}
 
-The picture on the right has all the features of the originalimage, with little distortion, but the aspect ratio is completely different.
+The picture on the right has all the features of the original image, with little distortion, but the aspect ratio is completely different.
 
 The paper use dynamic programming to look for the lowest-energy path between any top-row pixel to any bottom-row pixel (line in white):
 

@@ -25,7 +25,7 @@ I knew from various sources that rechargeable and non-rechargeable batteries hav
 
 The current values are above 200mA, but this is not a problem since my headlamp is fairly low power, and I plan to get (or make) a more powerful one.
 
-**TLRD; I measured the discharge graph of batteries on a 5.6 Ohm load to roughly match the current used by my headlamps.**
+**TL;DR I measured the discharge graph of batteries on a 5.6 Ohm load to roughly match the current used by my headlamps.**
 
 ## Results
 

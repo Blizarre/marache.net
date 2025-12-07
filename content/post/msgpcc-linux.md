@@ -7,7 +7,7 @@ thumbnail = "img/head_electronic.jpg"
 
 This post is about compiling and uploading software to a [Texas Instrument MSP board](http://www.ti.com/lsds/ti/tools-software/launchpads/launchpads.page) on linux.
 
-I have been disapointed by the official MSP IDE, [CCS](http://www.ti.com/tool/ccstudio) because it is far too big for the small projects I am working on.
+I have been disappointed by the official MSP IDE, [CCS](http://www.ti.com/tool/ccstudio) because it is far too big for the small projects I am working on.
 
 So I tried to use the MSP430 unofficial compiler, [mspgcc](http://sourceforge.net/apps/mediawiki/mspgcc/index.php?title=MSPGCC_Wiki). Nothing worked as expected. That is why I created this page to list all the tricks needed to make it work.
 

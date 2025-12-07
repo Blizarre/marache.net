@@ -23,7 +23,7 @@ The AI aspect can be enhanced by using "embeddings," which represent text as vec
 
 ### Commercial RAG solutions
 
-Interestingly, RAG/AI search solutions from [Azure](https://aws.amazon.com/kendra/), [AWS](https://aws.amazon.com/kendra/), and others follow the same pattern. They provide document databases, connectors to keep the database updated with the data sources, data pipelines for cleaning data, and the infrastructure to run the LLM.
+Interestingly, RAG/AI search solutions from [Azure](https://azure.microsoft.com/en-us/products/ai-services/ai-search), [AWS](https://aws.amazon.com/kendra/), and others follow the same pattern. They provide document databases, connectors to keep the database updated with the data sources, data pipelines for cleaning data, and the infrastructure to run the LLM.
 
 ## My weekend RAG pipeline
 

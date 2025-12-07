@@ -7,7 +7,7 @@ thumbnail = "img/head_code.jpg"
 +++
 
 The [SSE](https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions) and [AVX2](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions)
-extensions of the x86 instruction set can dramatically improve the speed of a program if you can optimize ot for SIMD instructions.
+extensions of the x86 instruction set can dramatically improve the speed of a program if you can optimize it for SIMD instructions.
 
 I made a small test with a fractal generator, which lends itself very well to this kind of optimization. I was impressed by the results:
 In very little time, thanks to the [intel intrisics guide](https://software.intel.com/sites/landingpage/IntrinsicsGuide/), I have been able

@@ -7,7 +7,7 @@ thumbnail = "img/head_llm.jpg"
 
 # Introduction
 
-I was talking with a friend about the library of babel (the [book](https://en.wikipedia.org/wiki/The_Library_of_Babel), and the [online library](https://libraryofbabel.info/)). Inspired by my short experiments with [RAG](2024--7-03-rag-ai-search), I decided to see if I could make something similar: an infinite Wikipedia, where each keyword leads to a page, and pages have links between them. What is tricky is making sure that the wiki stays consistent.
+I was talking with a friend about the library of babel (the [book](https://en.wikipedia.org/wiki/The_Library_of_Babel), and the [online library](https://libraryofbabel.info/)). Inspired by my short experiments with [RAG](2024-07-03-rag-ai-search), I decided to see if I could make something similar: an infinite Wikipedia, where each keyword leads to a page, and pages have links between them. What is tricky is making sure that the wiki stays consistent.
 
 # Description
 
